@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Write a word</title>
+    <meta name="viewport"
+          content="height = device-height,
+                    width = device-width,
+                    initial-scale = 1.0,
+                    minimum-scale = 1.0,
+                    maximum-scale = 1.0,
+                    user-scalable = no"/>
+
     <link rel="stylesheet" href="css/writeAWord.css">
 </head>
 <body>
+<canvas id="canvas"></canvas>
+<div class="controller">
+    <div id="black_btn" class="color_btn color_btn_selected"></div>
+    <div id="blue_btn" class="color_btn"></div>
+    <div id="green_btn" class="color_btn"></div>
+    <div id="red_btn" class="color_btn"></div>
+    <div id="orange_btn" class="color_btn"></div>
+    <div id="yellow_btn" class="color_btn"></div>
 
+    <div id="clear_btn" class="op_btn">清除</div>
+    <div class="clearfix"></div>
+</div>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/writeAWord.js"></script>
